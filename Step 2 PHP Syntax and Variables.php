@@ -1,4 +1,5 @@
 <?php
+// Write this Simple Example
 
 // Variables
 $name = "Ali";
