@@ -1,0 +1,103 @@
+PHP syntax is straightforward, and it closely resembles the syntax of other programming languages. Here are some key aspects of PHP syntax:
+
+1. **Script Tags:**
+   - PHP code is typically embedded in HTML or can exist as standalone PHP scripts.
+   - PHP code is enclosed within `<?php` and `?>` tags.
+   - For standalone PHP files, you can omit the closing `?>` tag to avoid accidental white space or line break issues.
+
+   Example:
+   ```php
+   <?php
+   // PHP code here
+   ?>
+   ```
+
+2. **Comments:**
+   - Single-line comments start with `//` or `#`.
+   - Multi-line comments are enclosed between `/*` and `*/`.
+
+   Example:
+   ```php
+   // This is a single-line comment
+
+   /*
+   This is a
+   multi-line comment
+   */
+   ```
+
+3. **Variables:**
+   - Variables start with the `$` symbol, followed by the variable name.
+   - Variable names are case-sensitive and can contain letters, numbers, and underscores but should start with a letter or underscore.
+
+   Example:
+   ```php
+   $name = "John";
+   $age = 25;
+   ```
+
+4. **Data Types:**
+   - PHP supports various data types such as strings, integers, floats, booleans, arrays, and more.
+   - The data type is dynamically determined based on the assigned value.
+
+   Example:
+   ```php
+   $stringVar = "Hello, PHP!";
+   $intVar = 42;
+   $floatVar = 3.14;
+   $boolVar = true;
+   ```
+
+5. **Operators:**
+   - PHP includes various operators for arithmetic, assignment, comparison, logical operations, etc.
+
+   Example:
+   ```php
+   $sum = $a + $b;
+   $isGreater = ($a > $b);
+   ```
+
+6. **Control Structures:**
+   - PHP uses control structures like `if`, `else`, `elseif`, `while`, `for`, `switch`, etc., for flow control.
+
+   Example:
+   ```php
+   if ($age >= 18) {
+       echo "You are an adult.";
+   } else {
+       echo "You are a minor.";
+   }
+   ```
+
+7. **Functions:**
+   - Functions are declared using the `function` keyword.
+   - Function names follow the same rules as variable names.
+
+   Example:
+   ```php
+   function greet($name) {
+       echo "Hello, $name!";
+   }
+
+   greet("Alice");
+   ```
+
+8. **Arrays:**
+   - Arrays can be indexed or associative, and they are created using the `array()` construct.
+
+   Example:
+   ```php
+   $fruits = array("Apple", "Banana", "Orange");
+   $info = array("name" => "John", "age" => 25);
+   ```
+
+9. **Strings:**
+   - Strings can be declared using single quotes (`'`) or double quotes (`"`).
+   - Variables within double-quoted strings are interpolated.
+
+   Example:
+   ```php
+   $greeting = "Hello, $name!";
+   ```
+
+These are the fundamental aspects of PHP syntax. As you progress, you'll encounter more advanced features and syntax, such as object-oriented programming, exception handling, namespaces, and more. Practice is crucial for becoming proficient in using PHP syntax effectively.

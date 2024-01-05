@@ -1,0 +1,5 @@
+Step 1: Setting Up Your Environment
+
+Before you start coding, make sure you have a PHP environment set up.
+You can use XAMPP, MAMP, or any other local server. 
+Alternatively, you can use online platforms like Repl.it or PHP Fiddle for quick testing.
