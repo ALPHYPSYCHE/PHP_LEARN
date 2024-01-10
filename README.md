@@ -1,3 +1,5 @@
+![Ali Amirshahi Banner](https://i.ibb.co/2WKr9HR/github-banner-small.png)
+
 <a href="https://github.com/ALPHYPSYCHE">
     <div style="margin-bottom:1em;"> 
         <img style="margin-right:-.2em;" align="left" src="https://cdn.worldvectorlogo.com/logos/php-1.svg" alt="php)" title="PHP" width="100" height="100"/>
