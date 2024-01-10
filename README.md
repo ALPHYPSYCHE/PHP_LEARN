@@ -16,7 +16,7 @@
 </div>
 ﻿
 
-## Table of Contents
+## 📚 Table of Contents
 
 1. [Setting Up Your Environment](#setting-up-your-environment)
 2. [PHP Syntax and Variables](#php-syntax-and-variables)
