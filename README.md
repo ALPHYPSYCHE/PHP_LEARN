@@ -18,24 +18,133 @@
 
 ## 📚 Table of Contents
 
-1. [Setting Up Your Environment](#setting-up-your-environment)
-2. [PHP Syntax and Variables](#php-syntax-and-variables)
-3. [Control Structures](#control-structures)
-4. [Functions](#functions)
-5. [Arrays](#arrays)
-6. [Forms and User Input](#forms-and-user-input)
-7. [Handling Form Submission](#handling-form-submission)
-8. [Class](#Class)
-9. [Working with Databases](#working-with-databases)
-10. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-11. [Error Handling](#Error-Handling)
-12. [File Handling](#File-Handling)
-13. [Cookies and Sessions](#Cookies-and-Sessions)
-14. [Regular Expressions](#Regular-Expressions)
-15. [Security Best Practices](#Security-Best-Practices)
-16. [API Integration](#API-Integration)
-17. [Composer and Dependency Management](#Composer-and-Dependency-Management)
-18. [Version Control with Git](#Version-Control-with-Git)
+1. [PHP syntax](#php-syntax)
+2. [Setting Up Your Environment](#setting-up-your-environment)
+3. [PHP Syntax and Variables](#php-syntax-and-variables)
+4. [Control Structures](#control-structures)
+5. [Functions](#functions)
+6. [Arrays](#arrays)
+7. [Forms and User Input](#forms-and-user-input)
+8. [Handling Form Submission](#handling-form-submission)
+9. [Class](#Class)
+10. [Working with Databases](#working-with-databases)
+11. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+12. [Error Handling](#Error-Handling)
+13. [File Handling](#File-Handling)
+14. [Cookies and Sessions](#Cookies-and-Sessions)
+15. [Regular Expressions](#Regular-Expressions)
+16. [Security Best Practices](#Security-Best-Practices)
+17. [API Integration](#API-Integration)
+18. [Composer and Dependency Management](#Composer-and-Dependency-Management)
+19. [Version Control with Git](#Version-Control-with-Git)
+
+What is a PHP File?
+PHP files can contain text, HTML, CSS, JavaScript, and PHP code
+PHP code is executed on the server, and the result is returned to the browser as plain HTML
+PHP files have the extension ".php"
+
+## PHP syntax
+PHP syntax is straightforward, and it closely resembles the syntax of other programming languages. Here are some key aspects of PHP syntax:
+
+1. Script Tags:
+   - PHP code is typically embedded in HTML or can exist as standalone PHP scripts.
+   - PHP code is enclosed within `<?php` and `?>` tags.
+   - For standalone PHP files, you can omit the closing `?>` tag to avoid accidental white space or line break issues.
+
+   Example:
+   ```php
+   <?php
+   // PHP code here
+   ?>
+   ```
+
+2. Comments:
+   - Single-line comments start with `//` or `#`.
+   - Multi-line comments are enclosed between `/*` and `*/`.
+
+   Example:
+   ```php
+   // This is a single-line comment
+
+   /*
+   This is a
+   multi-line comment
+   */
+   ```
+
+3. Variables:
+   - Variables start with the `$` symbol, followed by the variable name.
+   - Variable names are case-sensitive and can contain letters, numbers, and underscores but should start with a letter or underscore.
+
+   Example:
+   ```php
+   $name = "John";
+   $age = 25;
+   ```
+
+4. Data Types:
+   - PHP supports various data types such as strings, integers, floats, booleans, arrays, and more.
+   - The data type is dynamically determined based on the assigned value.
+
+   Example:
+   ```php
+   $stringVar = "Hello, PHP!";
+   $intVar = 42;
+   $floatVar = 3.14;
+   $boolVar = true;
+   ```
+
+5. Operators:
+   - PHP includes various operators for arithmetic, assignment, comparison, logical operations, etc.
+
+   Example:
+   ```php
+   $sum = $a + $b;
+   $isGreater = ($a > $b);
+   ```
+
+6. Control Structures:
+   - PHP uses control structures like `if`, `else`, `elseif`, `while`, `for`, `switch`, etc., for flow control.
+
+   Example:
+   ```php
+   if ($age >= 18) {
+       echo "You are an adult.";
+   } else {
+       echo "You are a minor.";
+   }
+   ```
+
+7. Functions:
+   - Functions are declared using the `function` keyword.
+   - Function names follow the same rules as variable names.
+
+   Example:
+   ```php
+   function greet($name) {
+       echo "Hello, $name!";
+   }
+
+   greet("Alice");
+   ```
+
+8. Arrays:
+   - Arrays can be indexed or associative, and they are created using the `array()` construct.
+
+   Example:
+   ```php
+   $fruits = array("Apple", "Banana", "Orange");
+   $info = array("name" => "John", "age" => 25);
+   ```
+
+9. Strings:
+   - Strings can be declared using single quotes (`'`) or double quotes (`"`).
+   - Variables within double-quoted strings are interpolated.
+
+   Example:
+   ```php
+   $greeting = "Hello, $name!";
+   ```
 
 ## Setting Up Your Environment
 
