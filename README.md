@@ -6,7 +6,7 @@
     </div>
     <div style="margin-bottom:-1.5em;">
         <h1 display="display:inline;">
-            <font size="+4">PHP Tutorial</font>
+            <font size="+4">PHP Tutorial 🎓</font>
         </h1>
     </div>
 </a>
