@@ -19,11 +19,11 @@
 ## 📚 Table of Contents
 
 1. [PHP syntax](#php-syntax)
-2. [Setting Up Your Environment](#setting-up-your-environment)
-3. [Control Structures](#control-structures)
-4. [Functions](#functions)
-5. [Arrays](#arrays)
-6. [Forms and User Input](#forms-and-user-input)
+2. [Setting Up Your Environment](#setting-up-your-environment) 
+3. [Functions](#functions)
+4. [Arrays](#arrays)
+5. [Forms and User Input](#forms-and-user-input)
+6. [Control Structures](#control-structures)
 7. [Handling Form Submission](#handling-form-submission)
 8. [Class](#Class)
 9. [Working with Databases](#working-with-databases)
@@ -149,26 +149,6 @@ PHP syntax is straightforward, and it closely resembles the syntax of other prog
 
 Before you start coding, make sure you have a PHP environment set up. You can use XAMPP, MAMP, or any other local server. Alternatively, you can use online platforms like Repl.it or PHP Fiddle for quick testing.
 
-## Control Structures
-
-Expand your script to include control structures:
-
-```php
-<?php
-$temperature = 20;
-
-// If statement
-if ($temperature > 30) {
-    echo "It's hot outside!";
-} elseif ($temperature > 15) {
-    echo "It's a pleasant day.";
-} else {
-    echo "It's a bit chilly.";
-}
-?>
-```
-This script checks the temperature and outputs a message accordingly.
-
 ## Functions
 
 Create a simple function:
@@ -224,6 +204,26 @@ Create an HTML form to get user input:
 </body>
 </html>
 ```
+
+## Control Structures
+
+Expand your script to include control structures:
+
+```php
+<?php
+$temperature = 20;
+
+// If statement
+if ($temperature > 30) {
+    echo "It's hot outside!";
+} elseif ($temperature > 15) {
+    echo "It's a pleasant day.";
+} else {
+    echo "It's a bit chilly.";
+}
+?>
+```
+This script checks the temperature and outputs a message accordingly.
 
 ## Handling Form Submission
 
