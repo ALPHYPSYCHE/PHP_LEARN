@@ -20,23 +20,22 @@
 
 1. [PHP syntax](#php-syntax)
 2. [Setting Up Your Environment](#setting-up-your-environment)
-3. [PHP Syntax and Variables](#php-syntax-and-variables)
-4. [Control Structures](#control-structures)
-5. [Functions](#functions)
-6. [Arrays](#arrays)
-7. [Forms and User Input](#forms-and-user-input)
-8. [Handling Form Submission](#handling-form-submission)
-9. [Class](#Class)
-10. [Working with Databases](#working-with-databases)
-11. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-12. [Error Handling](#Error-Handling)
-13. [File Handling](#File-Handling)
-14. [Cookies and Sessions](#Cookies-and-Sessions)
-15. [Regular Expressions](#Regular-Expressions)
-16. [Security Best Practices](#Security-Best-Practices)
-17. [API Integration](#API-Integration)
-18. [Composer and Dependency Management](#Composer-and-Dependency-Management)
-19. [Version Control with Git](#Version-Control-with-Git)
+3. [Control Structures](#control-structures)
+4. [Functions](#functions)
+5. [Arrays](#arrays)
+6. [Forms and User Input](#forms-and-user-input)
+7. [Handling Form Submission](#handling-form-submission)
+8. [Class](#Class)
+9. [Working with Databases](#working-with-databases)
+10. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
+11. [Error Handling](#Error-Handling)
+12. [File Handling](#File-Handling)
+13. [Cookies and Sessions](#Cookies-and-Sessions)
+14. [Regular Expressions](#Regular-Expressions)
+15. [Security Best Practices](#Security-Best-Practices)
+16. [API Integration](#API-Integration)
+17. [Composer and Dependency Management](#Composer-and-Dependency-Management)
+18. [Version Control with Git](#Version-Control-with-Git)
 
 What is a PHP File?
 PHP files can contain text, HTML, CSS, JavaScript, and PHP code
@@ -149,24 +148,6 @@ PHP syntax is straightforward, and it closely resembles the syntax of other prog
 ## Setting Up Your Environment
 
 Before you start coding, make sure you have a PHP environment set up. You can use XAMPP, MAMP, or any other local server. Alternatively, you can use online platforms like Repl.it or PHP Fiddle for quick testing.
-
-## PHP Syntax and Variables
-
-Create a new PHP file (e.g., index.php) and write a simple script:
-
-```php
-<?php
-// This is a comment
-
-// Variables
-$name = "John";
-$age = 25;
-
-// Output
-echo "Hello, $name! You are $age years old.";
-?>
-```
-This script declares variables, assigns values, and uses echo to output a message.
 
 ## Control Structures
 
