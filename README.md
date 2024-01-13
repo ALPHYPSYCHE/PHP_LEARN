@@ -6,7 +6,7 @@
     </div>
     <div style="margin-bottom:-1.5em;">
         <h1 display="display:inline;">
-            <font size="+4">PHP Tutorial 🎓</font>
+            <font size="+4">PHP Tutorial</font>
         </h1>
     </div>
 </a>
@@ -43,7 +43,7 @@ PHP files can contain text, HTML, CSS, JavaScript, and PHP code
 PHP code is executed on the server, and the result is returned to the browser as plain HTML
 PHP files have the extension ".php"
 
-## PHP syntax
+## 💠PHP syntax
 PHP syntax is straightforward, and it closely resembles the syntax of other programming languages. Here are some key aspects of PHP syntax:
 
 1. Script Tags:
@@ -146,11 +146,11 @@ PHP syntax is straightforward, and it closely resembles the syntax of other prog
    $greeting = "Hello, $name!";
    ```
 
-## Setting Up Your Environment
+## 💠Setting Up Your Environment
 
 Before you start coding, make sure you have a PHP environment set up. You can use XAMPP, MAMP, or any other local server. Alternatively, you can use online platforms like Repl.it or PHP Fiddle for quick testing.
 
-## Functions
+## 💠Functions
 
 Create a simple function:
 
@@ -167,7 +167,7 @@ echo greet("Alice");
 ```
 This script defines a function greet and calls it with a parameter.
 
-## Arrays
+## 💠Arrays
 
 Learn about arrays:
 
@@ -186,7 +186,7 @@ echo $info["age"]; // Outputs: 25
 ```
 This script demonstrates both indexed and associative arrays.
 
-## Forms and User Input
+## 💠Forms and User Input
 
 Create an HTML form to get user input:
 
@@ -206,7 +206,7 @@ Create an HTML form to get user input:
 </html>
 ```
 
-## Control Structures
+## 💠Control Structures
 
 Expand your script to include control structures:
 
@@ -226,7 +226,7 @@ if ($temperature > 30) {
 ```
 This script checks the temperature and outputs a message accordingly.
 
-## Handling Form Submission
+## 💠Handling Form Submission
 
 Create process.php to handle the form submission:
 
@@ -242,7 +242,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 ```
 
-## Class
+## 💠Class
 
 Learn the basics of classes in PHP:
 
@@ -272,7 +272,7 @@ echo $myCar->startEngine();
 
 ```
 
-## Working with Databases
+## 💠Working with Databases
 
 Learn basic database operations using MySQL and PHP:
 
@@ -310,7 +310,7 @@ $conn->close();
 ```
 This script connects to a MySQL database and retrieves user data.
 
-## Object-Oriented Programming (OOP)
+## 💠Object-Oriented Programming (OOP)
 
 Learn the basics of OOP in PHP:
 
@@ -331,7 +331,7 @@ class Car {
 ?>
 ```
 
-## Error Handling
+## 💠Error Handling
 
 Explain how to handle errors and exceptions in PHP. Discuss try-catch blocks and the importance of error reporting for debugging.
 
@@ -349,7 +349,7 @@ try {
 
 ```
 
-## File Handling
+## 💠File Handling
 
 Cover basic file operations, such as reading from and writing to files. Discuss functions like file_get_contents, file_put_contents, and handling file uploads.
 
@@ -366,7 +366,7 @@ file_put_contents('output.txt', $dataToWrite);
 
 ```
 
-## Cookies and Sessions
+## 💠Cookies and Sessions
 
 Introduce the concepts of cookies and sessions for managing user data across requests. Explain how to set, retrieve, and delete cookies, as well as how to use sessions for user authentication.
 
@@ -385,7 +385,7 @@ echo "Hello, " . $_SESSION['username'];
 
 ```
 
-## Regular Expressions
+## 💠Regular Expressions
 
 Provide an introduction to regular expressions in PHP. Explain how to use patterns for string matching, searching, and replacing.
 
@@ -403,7 +403,7 @@ if (preg_match("/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/", $email)) {
 
 ```
 
-## Security Best Practices
+## 💠Security Best Practices
 
 Emphasize the importance of security in PHP applications. Cover topics like SQL injection prevention, cross-site scripting (XSS) prevention, and data validation and sanitization.
 
@@ -420,7 +420,7 @@ $safeData = htmlspecialchars($unsafeData, ENT_QUOTES, 'UTF-8');
 
 ```
 
-## API Integration
+## 💠API Integration
 
 Show how to interact with external APIs using PHP. Cover basic API requests, such as making HTTP requests and processing JSON responses.
 
@@ -445,7 +445,7 @@ print_r($data);
 
 ```
 
-## Composer and Dependency Management
+## 💠Composer and Dependency Management
 
 Introduce Composer, the PHP dependency manager. Explain how to use it to manage libraries, autoload classes, and improve project structure.
 
@@ -462,7 +462,7 @@ echo $faker->name;
 ```
 
 
-## Version Control with Git
+## 💠Version Control with Git
 
 Although not PHP-specific, understanding version control is crucial for developers. Briefly introduce Git and basic version control concepts.
 
